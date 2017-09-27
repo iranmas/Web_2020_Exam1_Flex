@@ -1,0 +1,196 @@
+1. 
+
+.cont{
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box{
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  
+}
+
+2.
+
+.cont{
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+ }
+
+.box{
+  margin-bottom: 10px; 
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+}
+
+
+3.
+
+.cont{
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+ }
+
+.box{
+  margin-bottom: 10px; 
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+}
+
+
+4.
+
+.cont{
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+ }
+
+.box{
+  margin:10px;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+}
+
+5.
+
+
+<div class="cont">
+    <div class="down" class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+
+_____________________________________
+
+.cont{
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+  height:300px;
+  
+ }
+
+.box{
+  margin: 10px; 
+    
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  
+}
+
+.down {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  display: flex;
+  align-self: flex-end;
+}
+
+6.
+
+<div class="cont">
+    <div class="down" class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+_____________________
+
+.cont{
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  
+  height:300px;
+  
+ }
+
+.box{
+  margin: 10px; 
+    
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  
+}
+
+.down {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  display: flex;
+  align-self: flex-end;
+}
+  
+
+7. 
+
+.cont{
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+ 
+ 
+ }
+
+.box{
+  margin: 10px; 
+    
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  
+}
+
+8.
+
+.cont{
+  background-color: black;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  
+ 
+ }
+
+.box{
+  margin: 10px; 
+    
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  flex-grow: 1;
+  
+}
